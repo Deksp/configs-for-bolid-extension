@@ -1,0 +1,12 @@
+{
+    "name": "AT32F403AxCxx",
+    "mcu_Flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16"
+    ],
+    "linker": "linker/AT32F403AxC_FLASH.ld",
+    "svd": "/AT32F403Axx_v2.svd",
+    "ocd": "config_openocd.ocd"
+}

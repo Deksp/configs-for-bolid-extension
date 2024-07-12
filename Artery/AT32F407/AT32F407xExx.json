@@ -1,0 +1,12 @@
+{
+    "name": "AT32F407xExx",
+    "mcu_Flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16"
+    ],
+    "linker": "linker/AT32F407xE_FLASH.ld",
+    "svd": "/AT32F407xx_v2.svd",
+    "ocd": "config_openocd.ocd"
+}
